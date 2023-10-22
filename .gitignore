@@ -1,0 +1,47 @@
+# Node Modules
+frontend/node_modules
+
+# Compiled output
+frontend/dist
+frontend/.sass-cache
+frontend/.browserslistrc
+
+# Laravel specific
+backend/vendor
+backend/node_modules
+backend/.env
+backend/.env.*
+backend/public/storage
+backend/storage/*.key
+backend/storage/backups
+backend/storage/framework/cache
+backend/storage/framework/sessions
+backend/storage/framework/testing
+backend/storage/framework/views
+backend/storage/logs
+backend/bootstrap/cache
+
+# Docker Compose
+docker-compose.override.yml
+docker-compose.override.yml.dist
+
+# IDE files
+.idea
+*.iml
+*.ipr
+*.iws
+*.komodoproject
+.komodotools
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Local Docker files
+.docker/
+
